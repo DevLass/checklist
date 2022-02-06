@@ -34,6 +34,6 @@
 
 ###   *Thanks for reading, see you soon*
 
-> *So if I'm going to be someone, let me be someone I like*
+> *These daydreams say who I am*
 
 > *Never stop the griding.*
