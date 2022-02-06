@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(135deg, rgb(84, 84, 84),rgb(249, 249, 249)),linear-gradient(45deg, rgb(224, 217, 58) 0%, rgb(224, 217, 58) 23%,rgb(213, 180, 51) 23%, rgb(213, 180, 51) 30%,rgb(202, 143, 44) 30%, rgb(202, 143, 44) 40%,rgb(190, 106, 36) 40%, rgb(190, 106, 36) 46%,rgb(179, 69, 29) 46%, rgb(179, 69, 29) 96%,rgb(168, 32, 22) 96%, rgb(168, 32, 22) 100%),linear-gradient(135deg, rgb(224, 217, 58) 0%, rgb(224, 217, 58) 23%,rgb(213, 180, 51) 23%, rgb(213, 180, 51) 30%,rgb(202, 143, 44) 30%, rgb(202, 143, 44) 40%,rgb(190, 106, 36) 40%, rgb(190, 106, 36) 46%,rgb(179, 69, 29) 46%, rgb(179, 69, 29) 96%,rgb(168, 32, 22) 96%, rgb(168, 32, 22) 100%); background-blend-mode:overlay,overlay,normal;
+}
+
+.notecontainer{
+    height: 90%;
+    width: 70%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(180deg, rgb(106,42,27), rgb(106,42,27) 10%, transparent calc(10% + 2px)),linear-gradient(90deg, transparent 0%, transparent 12%, rgb(245,196,146) 12%, rgb(245,196,146) calc(12% + 2px), transparent calc(12% + 2px), transparent calc(12% + 6px), rgb(245,196,146) calc(12% + 6px), rgb(245,196,146) calc(12% + 8px), transparent calc(12% + 8px), transparent 100%), linear-gradient(180deg, rgb(251,238,159) 22%, transparent 22%), repeating-linear-gradient(180deg, rgb(201,215,152) 0px, rgb(201,215,152) 2px, transparent 2px, transparent 36px), linear-gradient(rgb(251,238,159),rgb(251,238,159));
+}
+
+input {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    padding: 12px 20px;
+    border: none;
+    background: none; 
+}
+
+#input1{ 
+    height: 2%;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 92%;
+    left: 99%;
+    transform: translate(-99%, -92%);
+}
+
+#input2{ 
+    height: 2%;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 33%;
+    left: 99%;
+    transform: translate(-99%, -33%);
+}
+
+#input3{ 
+    height: 2%;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 99%;
+    transform: translate(-99%, -40%);
+}
+
+#input4{ 
+    height: 2%;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 46%;
+    left: 99%;
+    transform: translate(-99%, -46.5%);
+}
+
+#input5{ 
+    height: 2%;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 52%;
+    left: 99%;
+    transform: translate(-99%, -52%);
+}
+
+#input6{ 
+    height: 2%;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 59%;
+    left: 99%;
+    transform: translate(-99%, -59%);
+}
+
+#input7{ 
+    height: 2%;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 65.5%;
+    left: 99%;
+    transform: translate(-99%, -65.5%);
+}
+
+#input8{ 
+    height: 2%;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 72%;
+    left: 99%;
+    transform: translate(-99%, -72%);
+}
+
+#input9{ 
+    height: 2%;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 78%;
+    left: 99%;
+    transform: translate(-99%, -78%);
+}
+
+#input10{ 
+    height: 2%;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 85%;
+    left: 99%;
+    transform: translate(-99%, -85%);
+}
+
+#radio1{
+    position: absolute;
+    top: 89.5%;
+    left: 15%;
+    transform: translate(-15%, -89.5%);
+}
+
+#radio2{
+    position: absolute;
+    top: 33%;
+    left: 15%;
+    transform: translate(-15%, -33%);
+}
+
+#radio3{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-15%, -40%);
+}
+
+#radio4{
+    position: absolute;
+    top: 46%;
+    left: 15%;
+    transform: translate(-15%, -46.5%);
+}
+
+#radio5{
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-15%, -52%);
+}
+
+#radio6{
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-15%, -58%);
+}
+
+#radio7{
+    position: absolute;
+    top: 64.5%;
+    left: 15%;
+    transform: translate(-15%, -64.5%);
+}
+
+#radio8{
+    position: absolute;
+    top: 71%;
+    left: 15%;
+    transform: translate(-15%, -71%);
+}
+
+#radio9{
+    position: absolute;
+    top: 77%;
+    left: 15%;
+    transform: translate(-15%, -77%);
+}
+
+#radio10{
+    position: absolute;
+    top: 83.5%;
+    left: 15%;
+    transform: translate(-15%, -83.5%);
+}
+
+.texttitle{
+    position: absolute;
+    top: 13%;
+    left: 16%;
+    transform: translate(-16%, -13%);
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    padding: 12px 20px;
+}
+
+.icon1{
+    position: absolute;
+    top: 1.5%;
+    left: 97%;
+    transform: translate(-97%, -1.5%);
+    font-size: 40px;
+    background-color: #772f1e;
+    border-radius: 10px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.icon2{
+    position: absolute;
+    top: 1.5%;
+    left: 90%;
+    transform: translate(-90%, -1.5%);
+    font-size: 40px;
+    background-color: #772f1e;
+    border-radius: 10px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+a:visited {
+    color: white;
+}
+
+a{
+    color: white;
+}
