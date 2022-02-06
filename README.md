@@ -1,25 +1,35 @@
 #   *Hey there, i'm Nich, and this is my simple and functional checklist!*
-### *This time I delved into backgrounds, and and a lot of position absolute*
+### *This time I delved into backgrounds, and a lot of position absolute*
 
 <p align="center">
   <img src="https://github.com/italicnich/checklist/blob/main/readmeimg/checklistpage.png" alt="Page Preview">
 </p>
 
-### *For this project i used flexbox and input radio*
-### *The display flex make the images stand next to each other*
-### *And the input radio makes that when a radio is marked, it changes its image with the margin left*
-### *The rest is just to beautify the site*
-### *In the future I would like to implement a timer to change images, like Instagram Stories*
+### *Today, i used to a website with complex backgrounds*
+### *https://www.gradientmagic.com/*
+### *Recommend to understand the breadth of css options*
+### *Besides, of course, finding magnificent backgrounds*
+### *They differ greatly from the traditional linear gradient*
 
 #### ***********************************************************************************************************************
-###   *Here, i'll explain how to make a neon animation in any word*
-###   *The simple commands:*
+###   *Here, i'll show you something i use in almost every project*
+###   *But i never commented around here*
+###   *My github and linkedin icons*
+###   *They are from a library called feather icons that posts much more than the two mentioned*
+###   *Here's the link:*
+###   *https://feathericons.com/*
 ###
-###   *- filter: drop-shadow(0 0 20px #FFFFFF);*
-###   *- font-weight: 1000;*
+###   *To use it without downloading anything, insert this script in your body*
 ###
-###    *This with the desired color instead of white*
-###    *Inside of a hover, makes the word "neon" when tapped*
+###   *- - <script src="https://unpkg.com/feather-icons"></script>*
+###     *- - - - <script>*
+###        *- - - - - feather.replace()*
+###    *- - - - </script>*
+###
+###    *Then just enter:*
+###    *- <i data-feather="linkedin"< </i <*
+###    *With the desired icon name*
+####   *The > are exchanged for < so that read.me doesn't interpret it as commands* 
 #### ***********************************************************************************************************************
 
 ###   *Thanks for reading, see you soon*
